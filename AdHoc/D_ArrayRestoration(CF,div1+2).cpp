@@ -99,15 +99,8 @@ int main()
                 break;
             }
         }
-    }/*
-    if (n == 2000) {
-        for (int i = 0; i < 2000; i++) {
-            if (hash1[v[i]] != 0 && i == range[v[i]].first) {
-                cout << v[i] << "->" << hash1[i];
-            }
-        }
     }
-    else */if (OK && max1 == q) {
+    if (OK && max1 == q) {
         cout << "YES" << endl;
         for (int i = 0; i < n; i++) 
             cout << v[i] << " " ;
